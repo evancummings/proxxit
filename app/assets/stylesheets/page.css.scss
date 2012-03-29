@@ -1,0 +1,27 @@
+// Place all the styles related to the page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.hero-unit {
+	margin-top: 20px;
+
+	h1 {
+		font-size: 800%;
+	}
+	p {
+		padding-left: 50px;
+		padding-top: 20px;
+		font-size: 300%;
+		padding-bottom: 40px;
+	}
+
+	#btnProxy {
+		float: right;
+		margin-right: 100px;
+
+	}
+}
+
+.interspace {
+	margin-bottom: 30px;
+}

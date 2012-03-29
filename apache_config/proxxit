@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+	ServerAdmin emcummings@gmail.com
+	ServerName www.proxxit.net
+	ServerAlias proxxit.net
+
+	#DirectoryIndex index.html
+	DocumentRoot /var/www/proxxit/public
+
+	<Directory /var/www/proxxit/public>
+		AllowOverride all
+		Options -MultiViews
+	</Directory>
+</VirtualHost>
